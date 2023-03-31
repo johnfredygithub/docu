@@ -8,7 +8,7 @@
  */
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
+const {configEnv} = require('./config/config.js');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DEVPEDIA',
@@ -16,7 +16,7 @@ const config = {
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://react.johnfredy.email/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -35,6 +35,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -54,10 +55,18 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // The application ID provided by Algolia
+        appId: `${configEnv.APPLICATION_ID}`,
+        // Public API key: it is safe to commit it
+        apiKey: `${configEnv.API_KEY}`,
+        indexName: 'demo1',
+        // Optional: see doc section below
+        contextualSearch: true,
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'My Meta Project',
@@ -85,19 +94,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Learn',
-            items: [
-              {
-                label: 'Style Guide',
-                to: 'docs/',
-              },
-              {
-                label: 'Second Doc',
-                to: 'docs/doc2',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [

@@ -20,9 +20,6 @@ import {loadFull} from 'tsparticles';
 
 
 
-const mode = localStorage.getItem('theme');
-
-
 
 
 /* //////////////////////////////////////////////////ARRAY/////////////////////////////// */
@@ -126,7 +123,7 @@ const BackParticles = () => {
         },
         particles: {
           color: {
-            value: `${ mode ==='dark' ? '#ffffff' : '#f00'}`,
+            value:'#ffffff',
           },
           links: {
             color: `#f00`,
@@ -175,9 +172,8 @@ const BackParticles = () => {
 export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
-  const st=clsx('hero hero--primary-darkest', styles.heroBanner);
-  console.log(clsx);
 
+  
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}

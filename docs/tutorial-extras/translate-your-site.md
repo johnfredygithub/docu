@@ -14,7 +14,7 @@ Modify `docusaurus.config.js` to add support for the `fr` locale:
 module.exports = {
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'fr'],
+    locales: ['en', 'es'],
   },
 };
 ```
@@ -78,7 +78,7 @@ The locale dropdown now appears in your navbar:
 Build your site for a specific locale:
 
 ```bash
-npm run build -- --locale fr
+npm run build -- --locale en
 ```
 
 Or build your site to include all the locales at once:
