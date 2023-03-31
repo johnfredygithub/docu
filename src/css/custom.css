@@ -15,23 +15,27 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #1d1d35;
+  --ifm-color-primary-dark: #29784C;
+  --ifm-color-primary-darker: #00805D;
+  --ifm-color-primary-darkest:#008770;
+  --ifm-color-primary-light: #008E86;
+  --ifm-color-primary-lighter:#00949E;
+  --ifm-color-primary-lightest: #0099B7;
   --ifm-code-font-size: 95%;
+  --ifm-background-color:rgba(7, 182, 129, 0.219);
+  --ifm-background-surface-color:#c7e2d0;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #d0f971e8;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-particles: #11c939;
+  --ifm-navbar-background-color:#000000;
 }

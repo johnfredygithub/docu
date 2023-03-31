@@ -408,7 +408,7 @@ module.exports = { checkApiKey, checkRole };
 ```
 
 ---
-Ejemplo Proteccio de una ruta y Control de roles 
+Ejemplo Proteccion de una ruta y Control de roles 
 ---
 ```jsx title="./routes/profile.router.js"
 /////all user

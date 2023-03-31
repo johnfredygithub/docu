@@ -11,7 +11,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'MY DOC',
+  title: 'DEVPEDIA',
   tagline: 'The tagline of my site',
   favicon: 'img/favicon.svg',
 
@@ -28,7 +28,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-/* ___________________________________________NAV__________________________________ */
+  /* ___________________________________________NAV__________________________________ */
   presets: [
     [
       'classic',
