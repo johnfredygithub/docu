@@ -8,7 +8,6 @@
  */
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-const {FcBusinessContact} = require('react-icons/fc');
 const {configEnv} = require('./config/config.js');
 /** @type {import('@docusaurus/types').Config} */
 const config = {

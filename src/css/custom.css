@@ -25,6 +25,8 @@
   --ifm-code-font-size: 95%;
   --ifm-background-color:rgba(7, 182, 129, 0.219);
   --ifm-background-surface-color:#c7e2d0;
+  --ifm-menu-color-background-active:rgba(7, 182, 129, 0.219);
+  --ifm-menu-color-background-hover:rgba(7, 182, 129, 0.219);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
