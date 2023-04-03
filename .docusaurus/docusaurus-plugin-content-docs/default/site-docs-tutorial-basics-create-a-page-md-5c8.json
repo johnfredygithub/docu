@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/create-a-page",
+  "id": "tutorial-basics/create-a-page",
+  "title": "Configuración del entorno de desarrollo",
+  "description": "CREAR .GITIGNORE  en la raiz ./ sitio donde crear un gitignore predeterminado según el proyecto https://www.toptal.com/developers/gitignore.",
+  "source": "@site/docs/tutorial-basics/create-a-page.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/create-a-page",
+  "permalink": "/tutorial-basics/create-a-page",
+  "draft": false,
+  "editUrl": "https://github.com/johnfredygithub/docs/tutorial-basics/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial - Basics",
+    "permalink": "/category/tutorial---basics"
+  },
+  "next": {
+    "title": "CREATE-SERVER-ROUTING-MIDDLEWARES",
+    "permalink": "/tutorial-basics/Create-Server-Routing-Middlewares-schemas"
+  }
+}

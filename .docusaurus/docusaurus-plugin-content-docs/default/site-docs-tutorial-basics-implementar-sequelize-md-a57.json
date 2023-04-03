@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/Implementar_Sequelize",
+  "id": "tutorial-basics/Implementar_Sequelize",
+  "title": "Implementar Sequelize",
+  "description": "---",
+  "source": "@site/docs/tutorial-basics/Implementar_Sequelize.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/Implementar_Sequelize",
+  "permalink": "/tutorial-basics/Implementar_Sequelize",
+  "draft": false,
+  "editUrl": "https://github.com/johnfredygithub/docs/tutorial-basics/Implementar_Sequelize.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CREATE-SERVER-ROUTING-MIDDLEWARES",
+    "permalink": "/tutorial-basics/Create-Server-Routing-Middlewares-schemas"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/tutorial-basics/markdown-features"
+  }
+}

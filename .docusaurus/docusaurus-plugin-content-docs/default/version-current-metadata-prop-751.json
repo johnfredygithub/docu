@@ -1,0 +1,154 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Tutorial Intro",
+        "href": "/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Basics",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Configuración del entorno de desarrollo",
+            "href": "/tutorial-basics/create-a-page",
+            "docId": "tutorial-basics/create-a-page"
+          },
+          {
+            "type": "link",
+            "label": "CREATE-SERVER-ROUTING-MIDDLEWARES",
+            "href": "/tutorial-basics/Create-Server-Routing-Middlewares-schemas",
+            "docId": "tutorial-basics/Create-Server-Routing-Middlewares-schemas"
+          },
+          {
+            "type": "link",
+            "label": "Implementar Sequelize",
+            "href": "/tutorial-basics/Implementar_Sequelize",
+            "docId": "tutorial-basics/Implementar_Sequelize"
+          },
+          {
+            "type": "link",
+            "label": "Markdown Features",
+            "href": "/tutorial-basics/markdown-features",
+            "docId": "tutorial-basics/markdown-features"
+          },
+          {
+            "type": "link",
+            "label": "Deploy your site",
+            "href": "/tutorial-basics/deploy-your-site",
+            "docId": "tutorial-basics/deploy-your-site"
+          },
+          {
+            "type": "link",
+            "label": "auth",
+            "href": "/tutorial-basics/auth",
+            "docId": "tutorial-basics/auth"
+          },
+          {
+            "type": "link",
+            "label": "Congratulations!",
+            "href": "/tutorial-basics/congratulations",
+            "docId": "tutorial-basics/congratulations"
+          }
+        ],
+        "href": "/category/tutorial---basics"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Extras",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Manage Docs Versions",
+            "href": "/tutorial-extras/manage-docs-versions",
+            "docId": "tutorial-extras/manage-docs-versions"
+          },
+          {
+            "type": "link",
+            "label": "Translate your site",
+            "href": "/tutorial-extras/translate-your-site",
+            "docId": "tutorial-extras/translate-your-site"
+          }
+        ],
+        "href": "/category/tutorial---extras"
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Tutorial Intro",
+      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/auth": {
+      "id": "tutorial-basics/auth",
+      "title": "auth",
+      "description": "ALGUNOS TIPOS DE AUTENTICACION DESDE EL CLIENTE",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/congratulations": {
+      "id": "tutorial-basics/congratulations",
+      "title": "Congratulations!",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/create-a-page": {
+      "id": "tutorial-basics/create-a-page",
+      "title": "Configuración del entorno de desarrollo",
+      "description": "CREAR .GITIGNORE  en la raiz ./ sitio donde crear un gitignore predeterminado según el proyecto https://www.toptal.com/developers/gitignore.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/Create-Server-Routing-Middlewares-schemas": {
+      "id": "tutorial-basics/Create-Server-Routing-Middlewares-schemas",
+      "title": "CREATE-SERVER-ROUTING-MIDDLEWARES",
+      "description": "---",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/deploy-your-site": {
+      "id": "tutorial-basics/deploy-your-site",
+      "title": "Deploy your site",
+      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/Implementar_Sequelize": {
+      "id": "tutorial-basics/Implementar_Sequelize",
+      "title": "Implementar Sequelize",
+      "description": "---",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/markdown-features": {
+      "id": "tutorial-basics/markdown-features",
+      "title": "Markdown Features",
+      "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-extras/manage-docs-versions": {
+      "id": "tutorial-extras/manage-docs-versions",
+      "title": "Manage Docs Versions",
+      "description": "Docusaurus can manage multiple versions of your docs.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-extras/translate-your-site": {
+      "id": "tutorial-extras/translate-your-site",
+      "title": "Translate your site",
+      "description": "Let's translate docs/intro.md to French.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

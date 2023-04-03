@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/auth",
+  "id": "tutorial-basics/auth",
+  "title": "auth",
+  "description": "ALGUNOS TIPOS DE AUTENTICACION DESDE EL CLIENTE",
+  "source": "@site/docs/tutorial-basics/auth.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/auth",
+  "permalink": "/tutorial-basics/auth",
+  "draft": false,
+  "editUrl": "https://github.com/johnfredygithub/docs/tutorial-basics/auth.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/tutorial-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/tutorial-basics/congratulations"
+  }
+}

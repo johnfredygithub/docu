@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/Create-Server-Routing-Middlewares-schemas",
+  "id": "tutorial-basics/Create-Server-Routing-Middlewares-schemas",
+  "title": "CREATE-SERVER-ROUTING-MIDDLEWARES",
+  "description": "---",
+  "source": "@site/docs/tutorial-basics/Create-Server-Routing-Middlewares-schemas.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/Create-Server-Routing-Middlewares-schemas",
+  "permalink": "/tutorial-basics/Create-Server-Routing-Middlewares-schemas",
+  "draft": false,
+  "editUrl": "https://github.com/johnfredygithub/docs/tutorial-basics/Create-Server-Routing-Middlewares-schemas.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuración del entorno de desarrollo",
+    "permalink": "/tutorial-basics/create-a-page"
+  },
+  "next": {
+    "title": "Implementar Sequelize",
+    "permalink": "/tutorial-basics/Implementar_Sequelize"
+  }
+}
