@@ -18,41 +18,27 @@ import styles from './styles.module.css';
 import Particles from 'react-tsparticles';
 import {loadFull} from 'tsparticles';
 
-
-
-
-
 /* //////////////////////////////////////////////////ARRAY/////////////////////////////// */
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Fácil de usar ',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
-    description: (
-      <>
-        ZZZZZZZZZZZDocusaurus was designed from the ground up to be easily
-        installed and used to get your website up and running quickly.
-      </>
-    ),
+    description: <>Código fácil de entender, copiar, implementar y usar</>,
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Código claro en la documentación',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
-      <>
-        ZZZZZZZZZZZZZZZZDocusaurus lets you focus on your docs, and we&apos;ll
-        do the chores. Go ahead and move your docs into the <code>docs</code>{' '}
-        directory.
-      </>
+      <>Código claro, comentado y bien documentado fácil de comprender</>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Desarrollo, Seguridad, documentación y buenas prácticas',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        ZZZZZZZZZZZZZZZZZZZExtend or customize your website layout by reusing
-        React. Docusaurus can be extended while reusing the same header and
-        footer.
+        tutoriales de desarrollo siguiendo prácticas de arquitectura limpia,
+        seguridad, etc.
       </>
     ),
   },
@@ -123,7 +109,7 @@ const BackParticles = () => {
         },
         particles: {
           color: {
-            value:'#ffffff',
+            value: '#ffffff',
           },
           links: {
             color: `#f00`,
@@ -173,7 +159,6 @@ export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
 
-  
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -182,7 +167,7 @@ export default function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <BackParticles >
+          <BackParticles>
             <div className={styles.buttons}>
               <Link
                 className={clsx(
@@ -192,13 +177,11 @@ export default function Home() {
                 to={useBaseUrl('/docs/intro')}>
                 Get Started
               </Link>
-              
             </div>
           </BackParticles>
         </div>
       </header>
       <main>
-      <p  >HOLA</p>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">

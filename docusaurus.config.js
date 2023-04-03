@@ -8,11 +8,12 @@
  */
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+const {FcBusinessContact} = require('react-icons/fc');
 const {configEnv} = require('./config/config.js');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DEVPEDIA',
-  tagline: 'The tagline of my site',
+  tagline: 'Tutoriales y documentación sobre desarrollo',
   favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
@@ -40,14 +41,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/johnfredygithub',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/johnfredygithub',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,7 +70,7 @@ const config = {
       },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Meta Project',
+        title: '',
         logo: {
           alt: 'My Project Logo',
           src: 'img/logo.svg',
@@ -84,33 +85,17 @@ const config = {
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/johnfredygithub',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
-      /* FOOTER_________________________________________________________ */
+
+      /* ____________FOOTER__________________________________________________ */
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-            ],
-          },
           {
             title: 'More',
             items: [
@@ -120,29 +105,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'Legal',
-            // Please do not remove the privacy and terms, it's a legal requirement.
-            items: [
-              {
-                label: 'Privacy',
-                href: 'https://opensource.fb.com/legal/privacy/',
-              },
-              {
-                label: 'Terms',
-                href: 'https://opensource.fb.com/legal/terms/',
-              },
-              {
-                label: 'Data Policy',
-                href: 'https://opensource.fb.com/legal/data-policy/',
-              },
-              {
-                label: 'Cookie Policy',
-                href: 'https://opensource.fb.com/legal/cookie-policy/',
+                href: 'https://github.com/johnfredygithub',
               },
             ],
           },
@@ -151,7 +114,7 @@ const config = {
           alt: 'Open Source Logo',
           // This default includes a positive & negative version, allowing for
           // appropriate use depending on your site's style.
-          src: '/img/meta_opensource_logo_negative.svg',
+          src: `img/contact_address_book_icon.png`,
           href: 'https://opensource.fb.com',
         },
         // Please do not remove the credits, help to publicize Docusaurus :)
